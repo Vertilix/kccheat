@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "LaH0OmQX5r8eiGslpgo3fn/o2qDMS4wQ3YEv88FRzb5H/QzJfFxi180Sk1UzZ9BbdWVjZOlWqAZP0drTqq4p3w==",
+  "success": true,
+  "projectFilePath": "/home/mike/Desktop/Code/C#/kc/kc.csproj",
+  "expectedPackageFiles": [
+    "/home/mike/.nuget/packages/microsoft.netcore.app.runtime.win-x64/6.0.6/microsoft.netcore.app.runtime.win-x64.6.0.6.nupkg.sha512",
+    "/home/mike/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.6/microsoft.aspnetcore.app.ref.6.0.6.nupkg.sha512",
+    "/home/mike/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/6.0.6/microsoft.aspnetcore.app.runtime.win-x64.6.0.6.nupkg.sha512",
+    "/home/mike/.nuget/packages/microsoft.netcore.app.host.win-x64/6.0.6/microsoft.netcore.app.host.win-x64.6.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

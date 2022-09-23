@@ -1,0 +1,2 @@
+/home/mike/Desktop/Code/C#/kc/bin/Release/net6.0/kc.pdb
+/home/mike/Desktop/Code/C#/kc/bin/Release/net6.0/kc.exe

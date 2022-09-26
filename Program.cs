@@ -17,50 +17,16 @@ namespace PS
         [DllImport("user32.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall)]
         public static extern void mouse_event(int dwFlags, int dx, int dy, int cButtons, int dwExtraInfo);
         private const int MOUSEEVENTF_RIGHTDOWN = 0x0008;
-        private const int MOUSEEVENTF_RIGHTUP = 0x0010;
-        public static void Main(string[] args)
+        private const int MOUSEEVENTF_RIGHTUP = 0x0010; // Invokes for mouseinput and getting the desktop window etc
+        public static void Main(string[] args) 
         {
-            // bool running = false;
-            // bool check = false;
-            // ConsoleKeyInfo cki;
-
-            // Console.WriteLine("Druk op de PageUp knop om de script te stoppen/starten.");
-
             while (true)
             {
-                // cki = Console.ReadKey(true);
-                // Console.WriteLine(running);
-                // bool keypress = cki.Key == ConsoleKey.PageUp;
-                //     if (keypress)
-                //     {
-                //         check = true;
-                //     }
-
-                //     if (keypress == false)
-                //     {
-                //         if (check && running)
-                //         {
-                //             check = false;
-                //             running = false;
-                //         }
-                //         if (check == false && running == false)
-                //         {
-                //             check = false;
-                //             running = true;
-                //         }
-                //     }
-
-                //     if (running)
-                //     {
-                        System.Threading.Thread.Sleep(300);
-                        Console.WriteLine(GetColorAt(23,23));
-                    // }
-
-
+                System.Threading.Thread.Sleep(300);
+                Console.WriteLine(GetColorAt(23,23));
             }
             Console.ReadLine();
         }
-
 
         public static Color GetColorAt(int x, int y)
         {
